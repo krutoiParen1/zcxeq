@@ -1,0 +1,129 @@
+.cheto {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: url(./—Pngtree—banana\ fruit\ pattern\ seamless\ vector_982992\ копия.png);
+	background-size: contain;
+	background-position: center;
+	background-color: #e2c5ff;
+}
+
+.cataloge {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.cataloge_list {
+	transition: 0.5s;
+	border: 1px solid #ffffff;
+	background-color: #e7cfff;
+	padding: 30px;
+	border-radius: 20px;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+.image {
+	height: 300px;
+	aspect-ratio: 1/1;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	background-color: #ffffff86;
+}
+
+.button {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	background-color: #ffffff86;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 0.1px solid #000;
+	transition: 0.3s;
+}
+
+.button:hover {
+	padding: 5px 20px;
+	background-color: #ffffffd5;
+}
+
+.apple:hover {
+	background-color: #5aff55;
+	transform: scale(1.03);
+}
+
+.grusha:hover {
+	background-color: #e1e100;
+	transform: scale(1.03);
+}
+
+.klubnika:hover {
+	background-color: #ff0000;
+	transform: scale(1.03);
+}
+
+.textik {
+	border-radius: 5px;
+	padding: 5px;
+}
+.cataloge_list:hover .textik {
+	background-color: #ffffff4d;
+	transition: all 0.2s;
+	outline: 3px solid rgb(255, 255, 255);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 40px;
+}
+
+.qqq {
+	list-style: none;
+	padding: 0px 25px;
+}
+
+.qqq:last-child {
+	padding-right: 0;
+}
+
+.eee {
+	display: flex;
+}
+
+.logo {
+	width: 100px;
+}
+
+main {
+}
+
+.main {
+	width: 70vw;
+	height: 580px;
+	border-radius: 0px 500px 0px 500px;
+	box-shadow: 0px 0px 5px #d711ff;
+}
+
+.main_text {
+	font-size: 20px;
+	border: 1px solid #fff;
+	background-color: #ffffff;
+	padding: 10px;
+	text-align: justify;
+	border-radius: 10px;
+	background-color: #e7cfff;
+	box-shadow: 0px 0px 5px #d711ff;
+}

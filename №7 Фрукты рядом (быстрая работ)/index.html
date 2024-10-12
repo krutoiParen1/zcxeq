@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Магазин</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="cheto">
+			<header>
+				<nav>
+					<div>
+						<img class="logo" src="logo.png" alt="logo" />
+					</div>
+					<div class="popo">
+						<h1 style="font-size: 28px">ФРУКТЫ РЯДОМ</h1>
+					</div>
+					<div>
+						<ul class="eee">
+							<li class="qqq"><a href=""> Главная</a></li>
+							<li class="qqq"><a href=""> О нас</a></li>
+							<li class="qqq"><a href=""> Каталог</a></li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+			<main>
+				<div class="">
+					<p class="main_text">
+						Наш магазин "ФРУКТЫ РЯДОМ" предлагает вам самый качественный товар
+						по самым высоким ценам. Мы очень много лет продаем поштучно
+						"Яблоки", "Грушы" и "Клубники". Мы гарантируем, что попробовав любой
+						из этих фруктов, вы никогда их не забудете этот чудесный аромат,
+						вкус и сочность. Вы обязательно обратитесь к нам еще! Доставка от 3
+						месяцев и 3 дней и оно того стоит!
+					</p>
+				</div>
+				<div align="center" class="main_logo">
+					<img src="main.jpeg" alt="" class="main" />
+				</div>
+				<div class="">
+					<p class="main_text">
+						Наш магазин "ФРУКТЫ РЯДОМ" предлагает вам самый качественный товар
+						по самым высоким ценам. Мы очень много лет продаем поштучно
+						"Яблоки", "Грушы" и "Клубники". Мы гарантируем, что попробовав любой
+						из этих фруктов, вы никогда их не забудете этот чудесный аромат,
+						вкус и сочность. Вы обязательно обратитесь к нам еще! Доставка от 3
+						месяцев и 3 дней и оно того стоит!
+					</p>
+				</div>
+			</main>
+			<div class="cataloge">
+				<div class="cataloge_list apple">
+					<p
+						style="
+							font-size: 28px;
+							padding: 0px;
+							margin-bottom: 15px;
+							margin-top: 0px;
+							background-color: rgba(240, 248, 255, 0.502);
+							border-radius: 5px;
+							border: 1px solid #ffffff;
+						"
+					>
+						Яблоко
+					</p>
+					<img src="apple.png" alt="apple" class="image" />
+					<p class="textik">Самое вкусное Яблоко по самой вкусной цене</p>
+					<a class="button" href="qwe.html">$300</a>
+				</div>
+				<div class="cataloge_list grusha">
+					<p
+						style="
+							font-size: 28px;
+							padding: 0px;
+							margin-bottom: 15px;
+							margin-top: 0px;
+							background-color: rgba(240, 248, 255, 0.502);
+							border-radius: 5px;
+							border: 1px solid #ffffff;
+						"
+					>
+						Груша
+					</p>
+					<img src="grusha.png" alt="grusha" class="image" />
+					<p class="textik">Самая вкусная Груша по самой вкусной цене</p>
+					<a class="button" href="qwe.html">$500</a>
+				</div>
+				<div class="cataloge_list klubnika">
+					<p
+						style="
+							font-size: 28px;
+							padding: 0px;
+							margin-bottom: 15px;
+							margin-top: 0px;
+							background-color: rgba(240, 248, 255, 0.502);
+							border-radius: 5px;
+							border: 1px solid #ffffff;
+						"
+					>
+						Клубника
+					</p>
+					<img src="klubnika.png" alt="klubnika" class="image" />
+					<p class="textik">Самая вкусная Клубника по самой вкусной цене</p>
+					<a class="button" href="qwe.html">$200</a>
+				</div>
+			</div>
+		</div>
+		<div id="vk_comments"></div>
+		<script type="text/javascript">
+			window.onload = function () {
+				VK.init({ apiId: 51924736, onlyWidgets: true })
+				VK.Widgets.Comments('vk_comments', { width: 500, limit: 15 }, 321)
+			}
+		</script>
+
+		<footer>
+			<p style="border-top: 1px solid black" align="center">
+				OOO "Фрукты вместе"
+			</p>
+		</footer>
+	</body>
+</html>
