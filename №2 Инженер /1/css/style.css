@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+*{
+  color: #7e6cee;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  transition: all .3s;
+}
+a:hover{
+  color: #4b36d4;
+}
+
+body{
+  background: url(../img/background.png)no-repeat fixed;
+  background-size: 100% 100%;
+  font-family: 'Pangolin', cursive;
+  background-color: #a89bff;
+} 
+
+.header__nav {
+  margin: auto;
+  width: 90%;
+  height: 144px;
+}
+
+.header__nav-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.menu__nav-item {
+  display: flex;
+  margin: 10px;
+}
+
+.menu__nav-list {
+  color: #fff;
+  font-size: 22px;
+  margin: 90px 25px 0 0;
+}
+
+.menu__nav-list:nth-child(2) {
+  margin-right: 0px;
+}
+
+
+
+.flexbox {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tetya {
+  margin-left: 10px;
+  height: 550px;
+  margin-right: 200px;
+}
+
+.div-test,
+.div-test-under,
+.div-retgen {
+  height: 370px;
+  min-width: 600px;
+  max-width: 800px;
+  padding: 25px;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.div-test {
+  background-color: #ffeaff;
+  margin-top: 60px;
+}
+
+.div-test p {
+  
+  font-size: 24px;
+  line-height: 1.3;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.button-test {
+  position: absolute;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  transform: scale(1);
+  margin-left: 40%;
+  border-radius: 10px;
+  background-color: #f5aeed;
+  border: 1px solid #a89bff;
+}
+
+.button-test:hover {
+  transform: scale(1.1);
+}
+
+.div-test-under {
+  background: url(../img/oig.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  transform: translateY(-100%);
+  outline: 1px solid #dc72e6;
+  transition: transform 400ms;
+  z-index: 0;
+}
+
+.div-retgen {
+  padding-bottom: 50px;
+  padding-top: 0;
+  transform: translateY(-200%);
+  opacity: 1;
+  z-index: 1;
+}
+
+.item-image {
+  height: 100px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 200px 200px 0px 0px;
+  width: 100%;
+}
+.admin{
+  border: 3px solid #7e6cee;
+  background-color: #f5aeed;
+  border-radius: 200px 200px 0px 0px;
+  padding: 50px;
+}
+
+.admin p{
+  text-align: center;
+  background-color: #f596ff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.image-admin{
+  padding: 10px;
+  border-radius: 50% 50% 0 0;
+  background-color: #7e6cee;
+  margin: 15px auto;
+  width: 250px;
+  height: 250px;
+  transition: all .3s;
+}
+
+.image-admin:hover{
+  padding: 0;
+}
+
+.admin h2{
+  border: 1px solid #7e6cee;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px 0 20px;
+  padding: 5px 0;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f5aeedaa;
+  border: 5px solid #7e6cee;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.menu-text{
+  margin: 30px;
+  width: 50%;
+}
+
+.menu-image1{
+  width: 450px;
+  height: 10% ;
+}
+
+::-webkit-scrollbar {
+  color: #000;
+  background-color: #000;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7e6cee, #f5aeed);
+}
+
+
+
+
+@media (max-width: 1200px) {
+.header__nav {
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header__nav-item {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header__nav-logo {
+  margin: 0;
+  text-align: center;
+}
+
+.viktor {
+  display: none;
+}
+
+.menu__nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu__nav-list {
+  margin-top: 30px;
+}
+}
+
+
+
+@media (max-width: 1200px) {
+  .flexbox {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tetya {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .div-test,
+  .div-test-under,
+  .div-retgen {
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .button-test {
+    position: static;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .item-image {
+    height: 500px;
+  }
+}

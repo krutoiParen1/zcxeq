@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/viktorina.css" />
+		<title>Document</title>
+		<style>
+			.div2,
+			.div3,
+			.div4,
+			.div5,
+			.div6,
+			.div7,
+			.div8,
+			.div9,
+			.div10,
+			.div11 {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header__nav">
+			<div class="header__nav-item">
+				<div class="header__nav-logo">
+					<a href="index.html"
+						><img src="./img/logo.svg" alt="logo" class="logo"
+					/></a>
+				</div>
+				<div class="viktor">
+					<h1>Викторина "Инженер строит будущее своими руками"</h1>
+				</div>
+				<div class="header__nav-list">
+					<ul class="menu__nav-item">
+						<li class="menu__nav-list"><a href="index.html">Дом</a></li>
+						<li class="menu__nav-list">
+							<a href="viktorina.html">Викторина</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="height">
+			<form class="container asd">
+				<div class="div1 qwe" id="div1">
+					<strong>Вопрос 1:</strong>Какой инструмент используется для измерения
+					длины?
+					<ul>
+						<li><input type="radio" name="question1" value="1" /> Лупа</li>
+						<li>
+							<input type="radio" name="question1" value="true" /> Линейка
+						</li>
+						<li><input type="radio" name="question1" value="3" /> Ручка</li>
+					</ul>
+					<input type="button" value="вперёд" onclick="next1()" />
+				</div>
+
+				<div class="div2 qwe" id="div2">
+					<strong>Вопрос 2:</strong> Какой инженер занимается созданием мостов?
+					<ul>
+						<li>
+							<input type="radio" name="question2" value="1" />
+							Инженер-парикмахер
+						</li>
+						<li>
+							<input type="radio" name="question2" value="true" />
+							Инженер-строитель
+						</li>
+						<li>
+							<input type="radio" name="question2" value="3" /> Инженер-музыкант
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back2()" />
+					<input type="button" value="вперёд" onclick="next2()" />
+				</div>
+
+				<div class="div3 qwe" id="div3">
+					<strong>Вопрос 3:</strong> Что такое чертеж?
+					<ul>
+						<li>
+							<input type="radio" name="question3" value="1" /> Головоломка
+						</li>
+						<li>
+							<input type="radio" name="question3" value="true" /> Рисунок с
+							планом
+						</li>
+						<li><input type="radio" name="question3" value="3" /> Оружие</li>
+					</ul>
+					<input type="button" value="назад" onclick="back3()" />
+					<input type="button" value="вперёд" onclick="next3()" />
+				</div>
+
+				<div class="div4 qwe" id="div4">
+					<strong>Вопрос 4:</strong> Какой инженер занимается созданием
+					электрических устройств?
+					<ul>
+						<li>
+							<input type="radio" name="question4" value="1" /> Инженер-кулинар
+						</li>
+						<li>
+							<input type="radio" name="question4" value="true" />
+							Инженер-электрик
+						</li>
+						<li>
+							<input type="radio" name="question4" value="3" /> Инженер-пожарник
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back4()" />
+					<input type="button" value="вперёд" onclick="next4()" />
+				</div>
+
+				<div class="div5 qwe" id="div5">
+					<strong>Вопрос 5:</strong> Что делает инженер?
+					<ul>
+						<li>
+							<input type="radio" name="question5" value="1" /> Рисует картины
+						</li>
+						<li>
+							<input type="radio" name="question5" value="true" /> Строит здания
+						</li>
+						<li>
+							<input type="radio" name="question5" value="3" /> Приготавливает
+							еду
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back5()" />
+					<input type="button" value="вперёд" onclick="next5()" />
+				</div>
+
+				<div class="div6 qwe" id="div6">
+					<strong>Вопрос 6:</strong> Для чего нужен инженер-архитектор?
+					<ul>
+						<li>
+							<input type="radio" name="question6" value="1" /> Для ремонта
+							железных дорог
+						</li>
+						<li>
+							<input type="radio" name="question6" value="true" /> Для
+							проектирования и строительства зданий
+						</li>
+						<li>
+							<input type="radio" name="question6" value="3" /> Для создания
+							модной одежды
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back6()" />
+					<input type="button" value="вперёд" onclick="next6()" />
+				</div>
+
+				<div class="div7 qwe" id="div7">
+					<strong>Вопрос 7:</strong> Какие материалы используются для
+					строительства?
+					<ul>
+						<li>
+							<input type="radio" name="question7" value="1" /> Конфеты и
+							шоколадки
+						</li>
+						<li>
+							<input type="radio" name="question7" value="2" /> Бумага и
+							карандаши
+						</li>
+						<li>
+							<input type="radio" name="question7" value="true" /> Кирпичи и
+							бетон
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back7()" />
+					<input type="button" value="вперёд" onclick="next7()" />
+				</div>
+
+				<div class="div8 qwe" id="div8">
+					<strong>Вопрос 8:</strong> Какой инженер занимается созданием
+					автомобилей?
+					<ul>
+						<li>
+							<input type="radio" name="question8" value="1" /> Инженер-врач
+						</li>
+						<li>
+							<input type="radio" name="question8" value="2" />
+							Инженер-автомеханик
+						</li>
+						<li>
+							<input type="radio" name="question8" value="true" />
+							Инженер-автомобилист
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back8()" />
+					<input type="button" value="вперёд" onclick="next8()" />
+				</div>
+
+				<div class="div9 qwe" id="div9">
+					<strong>Вопрос 9:</strong> Что такое прототип?
+					<ul>
+						<li>
+							<input type="radio" name="question9" value="1" /> Название города
+						</li>
+						<li>
+							<input type="radio" name="question9" value="true" /> Модель или
+							образец будущего изделия
+						</li>
+						<li>
+							<input type="radio" name="question9" value="3" /> Иностранное
+							слово
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back9()" />
+					<input type="button" value="вперёд" onclick="next9()" />
+				</div>
+
+				<div class="div10 qwe" id="div10">
+					<strong>Вопрос 10:</strong> Что делает инженер после того, как
+					завершит строительство?
+					<ul>
+						<li>
+							<input type="radio" name="question10" value="1" /> Смотрит
+							телевизор
+						</li>
+						<li>
+							<input type="radio" name="question10" value="2" /> Слушает музыку
+						</li>
+						<li>
+							<input type="radio" name="question10" value="true" /> Поддерживает
+							и ремонтирует созданные конструкции
+						</li>
+					</ul>
+					<input type="button" value="назад" onclick="back10()" />
+					<input type="button" value="Проверить" onclick="result()" />
+				</div>
+
+				<div class="div11 qwe" id="div11">
+					<h3>Результат</h3>
+					<p id="result"></p>
+					<a class="reset" href="viktorina.html"
+						><input type="reset" value="" onclick="next11()" />Еще раз</a
+					>
+					<a class="q123" href="index.html"
+						><input type="button" value="На главную"
+					/></a>
+				</div>
+			</form>
+		</div>
+		<script src="./js/viktorina.js"></script>
+	</body>
+</html>
