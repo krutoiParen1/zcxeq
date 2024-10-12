@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Категории</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/all.css" />
+		<link rel="stylesheet" href="./css/category.css" />
+	</head>
+	<body>
+		<div id="loading-screen" class="loading-screen">
+			<div class="spinner"></div>
+		</div>
+		<!-- Шапка сайта -->
+		<header class="header">
+			<div class="logo">
+				<a
+					href="#"
+					style="
+						text-align: center;
+						font-family: Comforter Brush;
+						font-size: 38px;
+						color: #cfcfcf;
+					"
+					>BlackBerry</a
+				>
+			</div>
+		</header>
+		<header>
+			<nav>
+				<a style="color: #969696" href="index.html">Главная</a>
+				<a href="category.html">Категории</a>
+				<a href="kontakt.html">Контакты</a>
+			</nav>
+		</header>
+
+		<div class="banner"></div>
+		<div class="container">
+			<div class="categories">
+				<a href="#" class="category" id="smartphones">
+					<img
+						src="https://krg-shop.motivtelecom.ru/upload/resize_cache/iblock/aa3/300_438_140cd750bba9870f18aada2478b24840a/w8icj3oqr55cv7si8qns58x0q51u4pf4.png"
+						alt="Смартфоны"
+					/>
+					<p>Смартфоны</p>
+				</a>
+				<a href="#" class="category" id="tablets">
+					<img
+						src="https://stimul.tel/upload/medialibrary/1ba/Planshety.png"
+						alt="Планшеты"
+					/>
+					<p>Планшеты</p>
+				</a>
+				<a href="#" class="category" id="laptops">
+					<img
+						src="https://spb-katalog.ru/image/cache/catalog/Apple/MacBook%20Pro%2014%20M3/MacBook-Pro-14-M3-silver-1.png.webp"
+						alt="Ноутбуки"
+					/>
+					<p>Ноутбуки</p>
+				</a>
+				<a href="#" class="category" id="accessories">
+					<img
+						src="https://jjstore.ru/image/cache/catalog/ultra2024/black/oceanband/applewatchultra2%282024%29blackoceanbandblack-1181x865.png"
+						alt="Аксессуары"
+					/>
+					<p>Аксессуары</p>
+				</a>
+			</div>
+
+			<div id="product-list" class="product-list"></div>
+		</div>
+		<footer>
+			<p>© 2024 Торговая компания электроники. Все права защищены.</p>
+			<a href="#">Политика конфиденциальности</a> |
+			<a href="#">Условия использования</a> | <a href="#">Контакты</a>
+		</footer>
+		<script src="loading.js"></script>
+
+		<script>
+			const productList = document.getElementById('product-list')
+
+			const products = {
+				smartphones: [
+					{
+						name: 'Смартфон 1',
+						image:
+							'https://upload.wikimedia.org/wikipedia/commons/4/43/IPhone_X%2C_back_and_front%2C_Silver.png',
+					},
+					{
+						name: 'Смартфон 2',
+						image:
+							'https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-11-green.png?v=7ba60ec5',
+					},
+					{
+						name: 'Смартфон 3',
+						image: 'https://pngimg.com/d/iphone_12_PNG21.png',
+					},
+					{
+						name: 'Смартфон 4',
+						image: './picture/iphone-13-pro.png',
+					},
+					{
+						name: 'Смартфон 5',
+						image:
+							'https://stratanetworks.com/wp-content/uploads/2023/09/iPhone-15-Blue.png',
+					},
+					{
+						name: 'Смартфон 1',
+						image:
+							'https://upload.wikimedia.org/wikipedia/commons/4/43/IPhone_X%2C_back_and_front%2C_Silver.png',
+					},
+					{
+						name: 'Смартфон 2',
+						image:
+							'https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-11-green.png?v=7ba60ec5',
+					},
+					{
+						name: 'Смартфон 3',
+						image: 'https://pngimg.com/d/iphone_12_PNG21.png',
+					},
+					{
+						name: 'Смартфон 4',
+						image: './picture/iphone-13-pro.png',
+					},
+					{
+						name: 'Смартфон 5',
+						image:
+							'https://stratanetworks.com/wp-content/uploads/2023/09/iPhone-15-Blue.png',
+					},
+				],
+				tablets: [
+					{
+						name: 'Планшет 1',
+						image:
+							'https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111964_ipad-pro-12in-hero-201706.png',
+					},
+					{
+						name: 'Планшет 2',
+						image:
+							'https://cdsassets.apple.com/content/services/pub/image?productid=507974&size=240x240',
+					},
+					{
+						name: 'Планшет 3',
+						image:
+							'https://twigo.ru/center/iblock/a48/uncrtxskmfbroqdcs2g76acn9feud299/3.png',
+					},
+					{
+						name: 'Планшет 4',
+						image:
+							'https://ap71.ru/wp-content/uploads/2021/09/iPad-mini-2021-star.png',
+					},
+					{
+						name: 'Планшет 5',
+						image:
+							'https://twigo.ru/center/iblock/752/i0zra1eqj23tttwru5xpfuy110gx5zyc/5.png',
+					},
+					{
+						name: 'Планшет 1',
+						image:
+							'https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111964_ipad-pro-12in-hero-201706.png',
+					},
+					{
+						name: 'Планшет 2',
+						image:
+							'https://cdsassets.apple.com/content/services/pub/image?productid=507974&size=240x240',
+					},
+					{
+						name: 'Планшет 3',
+						image:
+							'https://twigo.ru/center/iblock/a48/uncrtxskmfbroqdcs2g76acn9feud299/3.png',
+					},
+					{
+						name: 'Планшет 4',
+						image:
+							'https://ap71.ru/wp-content/uploads/2021/09/iPad-mini-2021-star.png',
+					},
+					{
+						name: 'Планшет 5',
+						image:
+							'https://twigo.ru/center/iblock/752/i0zra1eqj23tttwru5xpfuy110gx5zyc/5.png',
+					},
+				],
+				laptops: [
+					{
+						name: 'Ноутбук 1',
+						image:
+							'https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111883_macbookair.png',
+					},
+					{
+						name: 'Ноутбук 2',
+						image:
+							'https://lh4.googleusercontent.com/proxy/1xKW_PDdnKGXlyz_iJMyb7NOjVjWibcqcknjgTyJIKVAGk-xuRpBckS8LEf7-nOucv7kXBBXtyp48ozzFGmbMgUSNFz8fdw11pyVOB4y6jjGOQIkBQo8jcxO2CxSQ6C20AoUOl9FNsYZjjOaaUo011WMVac8Ml-mWvWoZPFWqYayych99EJb3n7-WmrqCg_tZA',
+					},
+					{
+						name: 'Ноутбук 3',
+						image: 'https://cepco.ru/img/main-diagramm/laptop.png',
+					},
+					{ name: 'Ноутбук 4', image: './picture/macbook.png' },
+					{
+						name: 'Ноутбук 5',
+						image:
+							'https://1click.ru/upload/iblock/fd0/xd11bot9wcndkhe8hh8hjqpxidwdg2zfr.png.pagespeed.ic.1ZMz69oZKj.png',
+					},
+					{
+						name: 'Ноутбук 1',
+						image:
+							'https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111883_macbookair.png',
+					},
+					{
+						name: 'Ноутбук 2',
+						image:
+							'https://lh4.googleusercontent.com/proxy/1xKW_PDdnKGXlyz_iJMyb7NOjVjWibcqcknjgTyJIKVAGk-xuRpBckS8LEf7-nOucv7kXBBXtyp48ozzFGmbMgUSNFz8fdw11pyVOB4y6jjGOQIkBQo8jcxO2CxSQ6C20AoUOl9FNsYZjjOaaUo011WMVac8Ml-mWvWoZPFWqYayych99EJb3n7-WmrqCg_tZA',
+					},
+					{
+						name: 'Ноутбук 3',
+						image: 'https://cepco.ru/img/main-diagramm/laptop.png',
+					},
+					{ name: 'Ноутбук 4', image: './picture/macbook.png' },
+					{
+						name: 'Ноутбук 5',
+						image:
+							'https://1click.ru/upload/iblock/fd0/xd11bot9wcndkhe8hh8hjqpxidwdg2zfr.png.pagespeed.ic.1ZMz69oZKj.png',
+					},
+				],
+				accessories: [
+					{
+						name: 'Аксессуар 1',
+						image:
+							'https://iqstoreindia.com/assets/images/watch-6/silver-aluminium-case-with-sport-band_clipped_rev_1.png',
+					},
+					{
+						name: 'Аксессуар 2',
+						image:
+							'https://shop.9282922.ru/upload/iblock/aa6/aa691281da5f2e6f8bf803ae524760f6.png',
+					},
+					{
+						name: 'Аксессуар 3',
+						image:
+							'https://1click.ru/upload/iblock/2ea/xhcviic26kaj74p25uorbvwj1vsf5behg.png.pagespeed.ic.cY0dKauOjo.png',
+					},
+					{
+						name: 'Аксессуар 4',
+						image:
+							'https://business.ee.co.uk/content/dam/eeb-site/images-2023/devices/apple/watches/series-9/45mm/gold-ss/1-lte-45mm-gold-stainless-steel-clay-sport.png',
+					},
+					{
+						name: 'Аксессуар 5',
+						image:
+							'https://jjstore.ru/image/cache/catalog/ultra2024/black/oceanband/applewatchultra2%282024%29blackoceanbandblack-1181x865.png',
+					},
+					{
+						name: 'Аксессуар 1',
+						image:
+							'https://iqstoreindia.com/assets/images/watch-6/silver-aluminium-case-with-sport-band_clipped_rev_1.png',
+					},
+					{
+						name: 'Аксессуар 2',
+						image:
+							'https://shop.9282922.ru/upload/iblock/aa6/aa691281da5f2e6f8bf803ae524760f6.png',
+					},
+					{
+						name: 'Аксессуар 3',
+						image:
+							'https://1click.ru/upload/iblock/2ea/xhcviic26kaj74p25uorbvwj1vsf5behg.png.pagespeed.ic.cY0dKauOjo.png',
+					},
+					{
+						name: 'Аксессуар 4',
+						image:
+							'https://business.ee.co.uk/content/dam/eeb-site/images-2023/devices/apple/watches/series-9/45mm/gold-ss/1-lte-45mm-gold-stainless-steel-clay-sport.png',
+					},
+					{
+						name: 'Аксессуар 5',
+						image:
+							'https://jjstore.ru/image/cache/catalog/ultra2024/black/oceanband/applewatchultra2%282024%29blackoceanbandblack-1181x865.png',
+					},
+				],
+			}
+
+			document.querySelectorAll('.category').forEach(category => {
+				category.addEventListener('click', e => {
+					e.preventDefault()
+					const categoryId = category.id
+					displayProducts(categoryId)
+				})
+			})
+
+			function displayProducts(categoryId) {
+				productList.innerHTML = ''
+				if (products[categoryId]) {
+					products[categoryId].forEach(product => {
+						const productItem = document.createElement('div')
+						productItem.classList.add('product-item')
+						productItem.innerHTML = `
+                        <img src="${product.image}" alt="${product.name}">
+                        <p>${product.name}</p>
+                    `
+						productList.appendChild(productItem)
+					})
+				}
+			}
+		</script>
+	</body>
+</html>

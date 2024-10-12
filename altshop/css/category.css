@@ -1,0 +1,95 @@
+.banner {
+	background-image: url('../picture/Banner 1.2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	border-bottom: 2px solid #555;
+}
+
+.category {
+	text-align: center;
+	background-color: #131313;
+	padding: 20px;
+	border-radius: 5px;
+	transition: 0.3s;
+	cursor: pointer;
+	margin: 5px;
+	outline: 1px solid #131313;
+	text-decoration: none;
+	color: #d3d3d3;
+}
+
+.category:hover {
+	outline: 1px solid #555;
+	background-color: #2c2c2c;
+}
+
+.category img {
+	transition: 0.3s;
+	height: 150px;
+	width: 200px;
+}
+
+.category:hover img {
+	height: 150px;
+	width: 200px;
+}
+
+/* Стили для списка товаров */
+.product-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: self-start;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.product-item {
+	background-color: #222;
+	color: #e5e5e5;
+	width: 300px;
+	border-radius: 10px;
+	padding: 0 0 15px 0;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s, background-color 0.3s;
+}
+
+.product-item:hover {
+	background-color: #333;
+}
+
+.product-item img {
+	width: 200px;
+	height: 300px;
+	object-fit: contain;
+	transition: 0.3s;
+}
+
+.product-item:hover img {
+	transform: scale(1.1); /* Увеличение на 5% */
+}
+
+.product-item p {
+	margin: 0;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.block {
+	bottom: 0;
+	height: 200px;
+	width: 200px;
+	background: #131313;
+}
+
+header a:nth-child(2) {
+	color: #f0f0f0;
+}

@@ -1,0 +1,8 @@
+1. Зайди в папку CSS
+2. Открываешь файлы "styles.css" и "category.css"
+3. Меняешь .banner {
+   background-image: url('../picture/Big\ Banner\ v3.jpg');
+   }
+   3.1. Можешь просто ввести background-image: url(../picture/"и тут тебе предложат выбрать то, что тебе надо")
+4. Либо можешь просто вставить файл с заменой "Big Banner v3.jpg"
+5. Готово! ты успешно изменил своему же баннеру, шлюха )
