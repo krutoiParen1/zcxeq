@@ -1,0 +1,110 @@
+/* Стили для основного контейнера */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для заголовка */
+header {
+  color: rgb(124, 68, 129);
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+/* Стили для информации о бронировании */
+.booking-info {
+  background-color: #fff;
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.booking-info h2 {
+  color: rgb(124, 68, 129);
+}
+
+/* Стили для информации о поездке */
+.trip-info {
+  background-color: #fff;
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.trip-info h2 {
+  color: rgb(124, 68, 129);
+}
+
+/* Стили для деталей поездки */
+.trip-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.route-info,
+.departure-info,
+.arrival-info,
+.probability-info {
+  flex: 1;
+  padding: 10px;
+}
+
+.route-info,
+.departure-info,
+.arrival-info {
+  border-right: 1px solid rgb(171, 103, 180);
+}
+
+/* Стили для информации о пассажирах */
+.passengers {
+  background-color: #fff;
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.passengers h2 {
+  color: rgb(124, 68, 129);
+}
+
+.passenger {
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 0.33);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.passenger button.choose-seat {
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  outline: 2px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.choose-seat:hover {
+  background-color: rgb(171, 103, 180);
+  color: white;
+}

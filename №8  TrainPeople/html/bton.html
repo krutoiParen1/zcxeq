@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TrainPeople</title>
+		<link rel="stylesheet" href="../css/bron.css" />
+		<link
+			type="image/png"
+			sizes="16x16"
+			rel="icon"
+			href="../img/logo-logo.png"
+		/>
+	</head>
+	<body>
+		<form id="booking-form" action="upr-bron.html">
+			<h1>Бронирование билетов</h1>
+			<h2>Маршрут</h2>
+			<label for="route-number">Номер маршрута:</label>
+			<input type="text" id="route-number" required />
+			<label for="departure-city">Город выезда:</label>
+			<input type="text" id="departure-city" required />
+			<label for="departure-station">Станция выезда:</label>
+			<input type="text" id="departure-station" required />
+			<label for="departure-date">Дата выезда:</label>
+			<input type="date" id="departure-date" required />
+			<label for="departure-time">Время выезда:</label>
+			<input type="time" id="departure-time" required />
+			<label for="arrival-city">Город назначения:</label>
+			<input type="text" id="arrival-city" required />
+			<label for="arrival-station">Станция назначения:</label>
+			<input type="text" id="arrival-station" required />
+			<label for="arrival-time">Время прибытия:</label>
+			<input type="time" id="arrival-time" required />
+
+			<div class="passenger">
+				<h2>Пассажир 1</h2>
+				<label for="first-name-1">Имя:</label>
+				<input type="text" id="first-name-1" required />
+				<label for="last-name-1">Фамилия:</label>
+				<input type="text" id="last-name-1" required />
+				<label for="birth-date-1">Дата рождения:</label>
+				<input type="date" id="birth-date-1" required />
+				<label for="document-number-1">Номер документа:</label>
+				<input type="text" id="document-number-1" required />
+			</div>
+
+			<button type="button" id="add-passenger">Добавить пассажира</button>
+
+			<button type="button" id="remove-passenger">Удалить пассажира</button>
+			<br />
+			<br />
+			<br />
+			<br />
+			<p style="text-align: center">
+				Финальная стоимость: <span id="total-price">$1000</span>
+			</p>
+
+			<button type="submit">Оформить бронирование</button>
+		</form>
+
+		<script src="../js/bron.js"></script>
+	</body>
+</html>

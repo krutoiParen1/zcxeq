@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: whitesmoke;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+
+#seat-map {
+  width: 50%;
+  height: 70%;
+  background-color:whitesmoke;
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.seat {
+  border: 1px solid yellowgreen;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.selected {
+  background-color: rgb(171, 103, 180);
+  color: #fff;
+}
+
+#selected-seat {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#confirm-button {
+  border: none;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 15px ;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(171, 103, 180, 1.33);
+}
+
+#confirm-button:hover {
+  outline: 1px solid rgb(171, 103, 180);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.33);
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(171, 103, 180);
+}
