@@ -1,0 +1,159 @@
+/* Стили для всего тела страницы */
+body {
+  background-color: #1b2223;
+  color: #f4fefd;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стиль для заголовка страницы */
+h1 {
+  color: #0ef6cc;
+  text-align: center;
+  padding: 20px;
+  background-color: #3a4f50;
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Стили для контейнера с тарифами */
+.tariffs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Стиль для отдельного блока с тарифом */
+.tariff {
+  background-color: #3a4f50;
+  color: #f4fefd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Эффект тени */
+  transition: transform 0.2s;
+  /* Анимация при наведении */
+}
+
+/* Стиль для заголовка тарифа */
+.tariff h2 {
+  color: #0ef6cc;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+/* Стиль для описания тарифа */
+.tariff p {
+  width: 90%;
+  padding-left: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Анимация при наведении на тариф */
+.tariff:hover {
+  transform: scale(1.05);
+  /* Увеличение при наведении */
+}
+
+/* Стиль для ссылок в тарифах */
+.tariff a {
+  display: block;
+  background-color: #0ef6cc;
+  color: #1b2223;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 18px;
+}
+
+/* Стиль для ссылок в тарифах при наведении */
+.tariff a:hover {
+  background-color: #3a4f50;
+  /* Изменение цвета при наведении */
+  color: #0ef6cc;
+}
+
+/* Стили для модального окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3a4f50;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: #f4fefd;
+}
+
+#purchaseForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#purchaseForm input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#purchaseForm button {
+  background-color: #0ef6cc;
+  color: #1b2223;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#purchaseForm button:hover {
+  background-color: #3a4f50;
+  color: #0ef6cc;
+}
+
+/* Стили для модального окна */
+.modal-content {
+  background-color: #3a4f50;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #0ef6cc;
+}

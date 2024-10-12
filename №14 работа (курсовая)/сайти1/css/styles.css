@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b2223;
+}
+
+.menu {
+  background-color: #3a4f50;
+  padding: 30px 0 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.menu__inner{
+  display: flex;
+  align-items: center;
+}
+
+.menu__nav-item {
+  list-style: none;
+}
+
+.menu__nav-list{
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  
+}
+
+.menu__nav-list1{
+  margin: 0 30px 0 auto;
+  list-style: none;
+}
+
+.menu-item{
+  white-space: nowrap;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.menu-item:hover {
+  transition: all .3s;
+  color: #1b2223;
+  outline: 3px solid #1b2223;
+  background-color: #0ef6cc;
+}
+
+.lichniy {
+  height: 80px;
+  transition: all .3s;
+  filter: drop-shadow(0 0 10px #0ef6cc);
+}
+
+.lichniy:hover{
+  filter: drop-shadow(0 0 5px #0ef6cc);
+}
+
+.logo {
+  height: 100px;
+  transition: 0.2s;
+  filter: drop-shadow(0 0 5px #0ef6cc);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 5px #0ef6ccb1);
+}
+
+#specialButton{
+  text-align: center;
+  display: block;
+  background-color: white;
+  
+}
+
+/* FOOTERRRRRR */
+
+.footer {
+  width: 100%;
+  background-color: #ffffff;
+  color: #211b1b;
+  padding: 10px 0;
+}
+
+.footer__text{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text1 p{
+  padding: 10px 0;
+  margin-right: 20px;
+}
+
+.footer__text1 a{
+  text-decoration: none;
+  color: #211b1b;
+  transition: all .2s;
+}
+
+.footer__text1 a:hover{
+  color: #0ef6cc;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}

@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+/* Стили для общих элементов */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3a4f50;
+  font-size: 18px;
+}
+
+/* Стили для раздела "О нас" на второй странице */
+.about {
+  padding: 20px 0px;
+  color: #f4fefd;
+  /* Цвет текста */
+}
+
+.about h2 {
+  color: #0ef6cc;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #3a4f50;
+  font-size: 36px;
+}
+
+.about p {
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about .q {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.about li{
+  box-shadow: 0 0 3px 2px #0ef6cc;
+  color: #3a4f50;
+  background-color: #0ef6cc;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  margin: 50px;
+}
+
+
+.team {
+  color: #f4fefd;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.company-info {
+  padding: 50px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.company-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.qq{
+  margin: auto;
+  width: 87%;
+  padding: 20px 0px;
+}
+.qq h2 {
+  color: #0ef6cc;
+  text-align: center;
+  padding: 20px;
+  background-color: #3a4f50;
+  margin: 0;
+  font-size: 36px;
+}
+
+.qq p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.team-members{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-member {
+  margin-bottom: 50px;
+}
+
+
+.team-member img {
+  width: 150px;
+  height: 200px;
+  border-radius: 40%;
+  transition: 0.5s;
+}
+
+.team-member img:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px 3px #0ef6cc;
+}
+.team-member h3 {
+  margin-top: 20%;
+  background-color: #1b2223;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  background-color: #1b222370;
+  font-size: 16px;
+}
+
+.container-about {
+  max-width: 1200px;
+  margin: auto auto;
+  padding: 40px;
+  background-color: #205b55;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.container-team{
+  max-width: 1200px;
+    margin: auto auto;
+}
+

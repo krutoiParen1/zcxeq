@@ -1,0 +1,97 @@
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #f4fefd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Заголовок личного кабинета */
+h1 {
+  color: #1b2223;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Стили для формы ввода кода тарифа */
+.code-form {
+  background-color: #1b2223;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.code-form h2 {
+  color: #f4feff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.code-form input[type="text"] {
+  padding: 10px;
+  width: 98%;
+  margin-bottom: 10px;
+  border: 1px solid #0ef6cc;
+  border-radius: 5px;
+  background-color: #f4feff;
+  color: #1b2223;
+  font-size: 16px;
+}
+
+.code-form button {
+  padding: 10px 20px;
+  background-color: #0ef6cc;
+  color: #1b2223;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.code-form button:hover {
+  background-color: #3a4f50;
+}
+
+/* Стили для информации о выбранном тарифе */
+.tariff-info {
+  background-color: #1b2223;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #f4feff;
+  font-size: 18px;
+}
+
+/* Стили для кнопки "Выйти" */
+button[name="logout"] {
+  background-color: #ff4500;
+  color: #f4fefd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[name="logout"]:hover {
+  background-color: #ff6347;
+}
+
+/* Стили для ссылки "Войти / Зарегистрироваться" */
+a {
+  color: #0ef6cc;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}

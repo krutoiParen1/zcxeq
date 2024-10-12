@@ -1,0 +1,243 @@
+.hero {
+  background-color: #0ef6cc;
+  padding: 200px 0;
+  background-image: url('../img/logo.png');
+  background-size: 40% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0ef6cc;
+  transition: 0.5s;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0edbb5;
+  /* Изменение цвета при наведении */
+}
+
+.hero {
+  margin: 10px 20px 0;
+  box-shadow: 0 0 15px black;
+}
+
+
+/* Стили для раздела "О нас" */
+.about {
+  text-align: center;
+  padding: 50px;
+  color: #f4fefd;
+  /* Цвет текста в разделе "О нас" */
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  /* Три столбца */
+  gap: 20px;
+  /* Отступ между элементами */
+  padding: 50px;
+  background-color: #3a4f50;
+  color: #f4fefd;
+}
+
+.advantages h2 {
+  grid-column: span 3;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.advantage-item {
+  background-color: #1b222365;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  box-shadow: 0 0 5px 5px #1b2223;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.advantage-item h3 {
+  color: #f0f0f0;
+  text-shadow: 0px 4px 4px rgba(51, 51, 51, 0.25);
+  display: inline-block;
+  border: 1px solid #1b2223a3;
+  background-color: #1b222365;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 28px;
+}
+
+.advantage-item p {
+  padding: 10px 50px;
+}
+
+.advantage-item img {
+  box-shadow: 0px 0px 5px 1px #0ef6cc;
+  outline: 1px solid #0ef6cc;
+  display: block;
+  margin: 0 auto;
+  min-width: 15%;
+  width: 80%;
+  padding: 5px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+.advantage-item img:hover {
+  box-shadow: none;
+}
+
+.container1 {
+  max-width: 1806px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
+.news{
+  color: white;
+  margin-bottom: 70px;
+}
+
+.news-text{
+  outline: 1px solid #363d3c;
+  border-radius: 5px;
+  background-color: #3a4f50;
+  margin: 30px 10vw;
+  text-align: center;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px 2px #3a4f50;
+}
+
+article h2{ 
+  font-size: 28px;
+  margin: 30px;
+  text-align: center;
+}
+
+
+.menu-tariff{
+  width: 95%;
+  margin: 0 auto;
+}
+.tariff__menu{
+  background: linear-gradient(120deg, #7aefd2, #00553a 65%);
+  border: 2px solid #1b2223;
+  box-shadow: 0 0 10px #000;
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-wrap: wrap-reverse;
+}
+
+.tariff__info{
+  background-color: #37e9c0;
+  color: #09534e;
+  text-align: justify;
+  border: 2px solid #f4fefd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+  box-shadow: 0 0 5px;
+  margin: 15px;
+}
+
+.tariff__info ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  list-style: none;
+}
+
+.tariff__info li{
+  text-align: center;
+  color: #323b3d;
+  display: block;
+  border: 1px solid #545454;
+  box-shadow: 0 0 2px 1px#585858;
+  border-radius: 7px;
+  background-color: #ebfffb3f;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.tariff__info h2{
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.tariff__image{
+  width: 400px;
+}
+
+.tariff-details{
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.tariff-details__button{
+  color: #ffffff;
+  border: 2px solid #000;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #6dffe482;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #000;
+  transition: all .3s;
+}
+
+.tariff-details__button:hover{
+box-shadow: none;
+border: none;
+background-color: #6dffe4;
+color: rgb(95, 95, 95);
+
+}
+
+.container-index {
+  max-width: 1200px;
+  margin: auto auto;
+  padding: 40px;
+  background-color: #205b55;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.container-index__advantage{
+  max-width: 1200px;
+  margin: auto auto;
+}
