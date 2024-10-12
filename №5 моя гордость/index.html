@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/slider.css" />
+		<link rel="stylesheet" href="./css/tablet.css" />
+		<link rel="stylesheet" href="./css/phone.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Тестовое задание</title>
+	</head>
+	<body>
+		<header>
+			<div class="top-header">
+				<div class="top-header__flex">
+					<ul class="top-header__left-menu">
+						<li>
+							<a class="top-header__menu-link top-header__menu-link_active">
+								Частным клиентам
+							</a>
+						</li>
+						<li><a class="top-header__menu-link">Для бизнеса </a></li>
+						<li class="top-header__menu-vector"></li>
+						<li><a class="top-header__menu-link">О банке </a></li>
+						<li><a class="top-header__menu-link">Офисы </a></li>
+					</ul>
+
+					<!-- tablet -->
+					<div class="top-header-tablet">
+						<div class="top-header-tablet__flex">
+							<ul class="top-header-tablet__menu">
+								<li class="top-header-tablet__menu-item">
+									<a class="top-header-tablet__link">Частным клиентам </a>
+								</li>
+								<span class="top-header-tablet__separator"></span>
+								<li>
+									<a
+										class="top-header-tablet__link top-header-tablet__link-active"
+										>Для бизнеса
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- tablet -->
+
+					<div class="top-header__right-menu">
+						<a href="tel:88007755606" class="top-header__phone"
+							>8 (800) 775-56-06</a
+						>
+						<div class="top-header__location">
+							<img src="./image/location.svg" alt="" />
+							<p class="top-header__location-text">Хабаровск</p>
+						</div>
+						<p class="top-header__language">English</p>
+					</div>
+				</div>
+				<div class="top-header__line"></div>
+			</div>
+
+			<div class="down-header">
+				<div class="down-header__logo">
+					<a class="logo" href="">
+						<img src="./image/Logo.png" alt="" />
+					</a>
+
+					<ul class="down-header__left-menu">
+						<li><a href="">Кредиты</a></li>
+						<li><a href="">Вклады</a></li>
+						<li><a href="" style="white-space: nowrap">Обмен валют</a></li>
+						<li><a href="">Карты</a></li>
+						<li><a href="">Ипотека</a></li>
+						<li><a href="">Переводы</a></li>
+						<li><a href="">Страхование</a></li>
+						<li><a href="">Страхование</a></li>
+
+						<li class="down-header__services">
+							<a href="">Сервисы</a> <img src="./image/Vector.svg" alt="" />
+						</li>
+					</ul>
+				</div>
+
+				<div class="down-header__right-menu">
+					<div class="down-header__call">
+						<img src="./image/phone.svg" alt="" />
+						<p style="font-weight: 500px">Заказать звонок</p>
+					</div>
+					<div class="down-header__login">
+						<img src="./image/exit.svg" alt="" />
+						<p>Интернет-банк</p>
+					</div>
+					<div class="down-header__menu-toggle">
+						<img src="./image/Menu.svg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<!-- tablet -->
+			<div class="tablet">
+				<div class="tablet__line"></div>
+				<ul class="tablet__left-menu">
+					<li><a href="">Кредиты</a></li>
+					<li><a href="">Вклады</a></li>
+					<li><a href="" style="white-space: nowrap">Обмен валют</a></li>
+					<li><a href="">Карты</a></li>
+					<li><a href="">Переводы</a></li>
+					<li class="tablet__services">
+						<a href="">Ещё</a> <img src="./image/Vector.svg" alt="" />
+					</li>
+				</ul>
+			</div>
+			<!-- tablet -->
+
+			<!-- telephone -->
+			<div class="telephone">
+				<div class="telephone__line"></div>
+				<div class="telephone__right-menu">
+					<div class="telephone__call">
+						<img src="./image/phone.svg" alt="" />
+						<p style="font-weight: 500px">8 800 775-56-06</p>
+					</div>
+					<div class="telephone__login">
+						<img src="./image/exit.svg" alt="" />
+						<p>Интернет-банк</p>
+					</div>
+				</div>
+			</div>
+			<!-- telephone -->
+		</header>
+		<div class="micro-banner">
+			<div class="micro-banner__flex">
+				<div class="micro-banner__content">
+					<div class="banner">
+						<div class="info-banner">
+							<ul class="info-banner__breadcrumb">
+								<li><a href="">Главная</a></li>
+								<li><img src="./image/Arrow.svg" alt="" /></li>
+								<li><a href="">Кредит</a></li>
+								<li><img src="./image/Arrow.svg" alt="" /></li>
+								<li><a href="">Автокредит</a></li>
+							</ul>
+
+							<p>
+								<span class="info-banner__span"> Автокредит от 7,5% </span>
+								годовых
+							</p>
+							<p>на покупку авто у дилера или частного лица</p>
+							<a class="info-banner__button" href="">Оформить</a>
+						</div>
+					</div>
+				</div>
+
+				<img src="./image/Frame 2.png" alt="" class="micro-banner__image" />
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="select-form">
+				<div class="select-form__header">
+					<h1 class="select-form__title">Выберите себе авто</h1>
+					<div id="close-car" class="select-form__close">
+						Свернуть список машин
+					</div>
+				</div>
+				<div class="car-selection">
+					<div class="car-selection__brand">
+						<p class="car-selection__label">Марка</p>
+						<div class="car-selection__flex-row selection">
+							<select
+								name="select"
+								id="brand_car"
+								class="car-selection__select"
+							>
+								<option value="value1">Выбрать</option>
+								<option value="value2">Audi</option>
+								<option value="value3">BMW</option>
+								<option value="value4">Chevrolet</option>
+								<option value="value5">Ford</option>
+								<option value="value6">Hyundai</option>
+								<option value="value6">Mazda</option>
+								<option value="value7">Mercedes Benz</option>
+							</select>
+						</div>
+					</div>
+					<div class="car-selection__year">
+						<p class="car-selection__label">Год</p>
+						<div class="car-selection__flex-row">
+							<select name="select" id="year" class="car-selection__select">
+								<option value="value1">Выбрать</option>
+								<option value="value2">2010</option>
+								<option value="value3">2011</option>
+								<option value="value4">2012</option>
+								<option value="value5">2013</option>
+								<option value="value6">2014</option>
+								<option value="value7">2015</option>
+								<option value="value8">2016</option>
+								<option value="value9">2017</option>
+								<option value="value10">2018</option>
+								<option value="value11">2019</option>
+								<option value="value12">2020</option>
+								<option value="value13">2021</option>
+							</select>
+						</div>
+					</div>
+					<div class="car-selection__price">
+						<p class="car-selection__label">Цена</p>
+						<div class="car-selection__price-flex">
+							<input type="number" name="price" id="price" placeholder="От" />
+							<span class="dash"></span>
+							<input type="number" name="price" id="price" placeholder="До" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- telephone -->
+			<div class="telephone">
+				<div class="car-selection-telephone">
+					<div class="car-selection-telephone__all-select">
+						<div class="car-selection-telephone__brand">
+							<p class="car-selection__label">Марка</p>
+							<div class="car__flex-row selection">
+								<select name="select" id="brand_car">
+									<option value="value1">Выбрать</option>
+									<option value="value2">Audi</option>
+									<option value="value3">BMW</option>
+									<option value="value4">Chevrolet</option>
+									<option value="value5">Ford</option>
+									<option value="value6">Hyundai</option>
+									<option value="value6">Mazda</option>
+									<option value="value7">Mercedes Benz</option>
+								</select>
+							</div>
+						</div>
+						<div class="car-selection-telephone__year">
+							<p class="car-selection__label">Год</p>
+							<div class="car__flex-row year">
+								<select name="select" id="year">
+									<option value="value1">Выбрать</option>
+									<option value="value13">2010</option>
+									<option value="value14">2011</option>
+									<option value="value15">2012</option>
+									<option value="value16">2013</option>
+									<option value="value17">2014</option>
+									<option value="value18">2015</option>
+									<option value="value19">2016</option>
+									<option value="value20">2017</option>
+									<option value="value21">2018</option>
+									<option value="value22">2019</option>
+									<option value="value23">2020</option>
+									<option value="value24">2021</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="car-selection-telephone__price">
+						<p class="car-selection__label">Цена</p>
+						<div class="car-selection-telephone__price-flex">
+							<input type="number" name="price" id="price" placeholder="От" />
+							<span class="dash"></span>
+							<input type="number" name="price" id="price" placeholder="До" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- telephone -->
+			<div class="card-list-carusel">
+				<div class="card-list__block">
+					<div class="card-list__info">
+						<p class="card-list__label">Лучшее предложение</p>
+						<h1 class="card-list__title">Renault Arkana drive</h1>
+						<p class="card-list__description">
+							Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого
+							листа. В нем все по-новому: от дизайна кузова до эргономики
+							салона. Получилось эмоционально и надежно — оцените сами!
+						</p>
+						<p class="card-list__price">от 1 316 000 ₽</p>
+						<div class="card-list__link">
+							<b class="card-list__link-text">Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</div>
+					</div>
+					<!-- slider -->
+					<div class="slider">
+						<div class="slider__wrapper">
+							<div class="slider__items">
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_1-1.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_1-4.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+							</div>
+						</div>
+						<a
+							class="slider__control slider__control_prev"
+							href="#"
+							role="button"
+							data-slide="prev"
+						></a>
+						<a
+							class="slider__control slider__control_next"
+							href="#"
+							role="button"
+							data-slide="next"
+						></a>
+					</div>
+				</div>
+
+				<div class="card-list__block">
+					<div class="card-list__info">
+						<p class="card-list__label">Лучшее предложение</p>
+						<h1 class="card-list__title">Volkswagen Tiguan PA</h1>
+						<p class="card-list__description">
+							Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого
+							листа. В нем все по-новому: от дизайна кузова до эргономики
+							салона. Получилось эмоционально и надежно — оцените сами!
+						</p>
+						<p class="card-list__price">от 2 395 000 ₽</p>
+						<div class="card-list__link">
+							<b class="card-list__link-text">Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</div>
+					</div>
+					<!-- slider -->
+					<div class="slider1">
+						<div class="slider__wrapper">
+							<div class="slider__items">
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_2-1.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_2-2.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+							</div>
+						</div>
+						<a
+							class="slider__control slider__control_prev"
+							href="#"
+							role="button"
+							data-slide="prev"
+						></a>
+						<a
+							class="slider__control slider__control_next"
+							href="#"
+							role="button"
+							data-slide="next"
+						></a>
+					</div>
+				</div>
+
+				<div class="card-list__block">
+					<div class="card-list__info">
+						<p class="card-list__label">Лучшее предложение</p>
+						<h1 class="card-list__title">BMW X7</h1>
+						<p class="card-list__description">
+							Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого
+							листа. В нем все по-новому: от дизайна кузова до эргономики
+							салона. Получилось эмоционально и надежно — оцените сами!
+						</p>
+						<p class="card-list__price">от 8 188 000 ₽</p>
+						<div class="card-list__link">
+							<b class="card-list__link-text">Подробнее</b>
+							<img src="/image/Arrow-right.svg" alt="" />
+						</div>
+					</div>
+					<!-- slider -->
+					<div class="slider2">
+						<div class="slider__wrapper">
+							<div class="slider__items">
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_3-1.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+								<div class="slider__item">
+									<img
+										class="img-fluid"
+										src="./image/car_3-4.png"
+										alt="..."
+										width="800"
+										height="400"
+										loading="lazy"
+									/>
+								</div>
+							</div>
+						</div>
+						<a
+							class="slider__control slider__control_prev"
+							href="#"
+							role="button"
+							data-slide="prev"
+						>
+						</a>
+						<a
+							class="slider__control slider__control_next"
+							href="#"
+							role="button"
+							data-slide="next"
+						></a>
+					</div>
+				</div>
+			</div>
+			<div class="card_list">
+				<div class="card_auto-1 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car1.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">г. Якутск</p>
+					<div class="card_auto-flex">
+						<p>2 211 700 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-2 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car2.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Skoda Karoq</h1>
+					<p style="margin-bottom: 8px">г. Казань</p>
+					<div class="card_auto-flex">
+						<p>1 790 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-3 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car3.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Citroen c4</h1>
+					<p style="margin-bottom: 8px">г. Уфа</p>
+					<div class="card_auto-flex">
+						<p>1 523 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-4 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car4.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Mercedes-benz Gls 400 D 4m Luxury</h1>
+					<p style="margin-bottom: 8px">г. Казань</p>
+					<div class="card_auto-flex">
+						<p>2 211 700 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-5 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car5.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Mercedes-benz Gle 350 D 4matic купе</h1>
+					<p style="margin-bottom: 8px">г. Казань</p>
+					<div class="card_auto-flex">
+						<p>2 211 700 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-6 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car6.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Mercedes-benz Gle 300 D 4matic Sport4</h1>
+					<p style="margin-bottom: 8px">г. Казань</p>
+					<div class="card_auto-flex">
+						<p>2 211 700 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-7 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car7.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Kia Sportage. Luxe+ 2.4л</h1>
+					<p style="margin-bottom: 8px">г. Якутск</p>
+					<div class="card_auto-flex">
+						<p>2 336 700 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-8 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car8.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Kia K5. Prestige. 2.5л</h1>
+					<p style="margin-bottom: 8px">г. Якутск</p>
+					<div class="card_auto-flex">
+						<p>2 242 400 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-9 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car9.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Honda Freed</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии.</p>
+					<div class="card_auto-flex">
+						<p>от 650 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-10 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car10.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Nissan Caravan (nv350)</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 1 250 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-11 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car11.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Toyota Land Cruizer Prado</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 2 500 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-12 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car12.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Toyota Vitz</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 480 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-13 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car13.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Toyota Vitz</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 520 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-14 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car14.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 750 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-15 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car15.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 800 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-16 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car16.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>Toyota Vitz</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 1 050 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-17 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car17.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 600 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-18 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car18.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 850 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="card_auto-19 card_auto">
+					<div class="card-list__image">
+						<img src="./image/car19.png" alt="" class="card-list__image-item" />
+					</div>
+					<h1>KIA Sportage. LUXE+ 2Л</h1>
+					<p style="margin-bottom: 8px">С аукциона Японии</p>
+					<div class="card_auto-flex">
+						<p>от 440 000 ₽</p>
+						<a href="" style="color: #282828; font-size: 13px">Подробнее</a>
+						<a href="" class="arrow-right">
+							<b>Подробнее</b>
+							<img src="./image/Arrow-right.svg" alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="all_car">
+				<p onclick="showAllCars()">Показать все машины</p>
+			</div>
+			<div class="auto_credit">
+				<div>
+					<p>
+						Не нашли автомобиль у нас, но нужен автокредит?
+						<a href=""> Перейдите к форме заявки</a>
+					</p>
+				</div>
+			</div>
+			<div class="General-Terms">
+				<h1>Общие условия</h1>
+				<div class="conditions__list">
+					<div class="conditions__item condition">
+						<span>Срок</span>
+						<p>от 6 месяцев до 6 лет.</p>
+					</div>
+					<div class="conditions__item condition">
+						<span>Сумма</span>
+						<p>от 200 000 до 5 000 000 руб.</p>
+					</div>
+					<div class="conditions__item condition">
+						<span>Годовая процентная ставка:</span>
+						<p>от 7,5 % *.</p>
+					</div>
+					<div class="conditions__item condition">
+						<span>Возможность приобретения авто у частного лица</span>
+					</div>
+				</div>
+				<div class="conditions__list-flex">
+					<p>Смотреть полные условия кредита</p>
+					<img src="image/Arrow-right.svg" alt="" />
+				</div>
+			</div>
+			<div class="faq">
+				<div class="faq__title-wrap">
+					<img src="image/faq.svg" alt="" />
+					<h2>Часто задаваемые вопросы</h2>
+				</div>
+
+				<div class="question question-open">
+					<div class="question-list">
+						<div class="question__link">Как подать заявку на автокредит?</div>
+						<div class="question__body">
+							<p style="padding-bottom: 16px; color: #8d8d8d">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+								eveniet asperiores hic molestias? Non repellendus illum
+								excepturi. Quia, aliquam quaerat. Enim porro soluta fugiat
+								suscipit repudiandae reprehenderit adipisci voluptas ex!
+								Similique iure eius, quis optio dicta blanditiis? Reprehenderit,
+								accusantium sapiente. Nulla quas voluptates ipsam. Consectetur
+								tempore odit dolorem consequatur nihil iusto officiis amet nisi
+								dolorum facilis! Aperiam placeat obcaecati illo. Aperiam
+								accusantium atque minus, impedit repellat magni commodi minima
+								ad asperiores dolor? Perspiciatis inventore similique numquam
+								voluptatum incidunt corrupti? Repellat eum aliquam molestias
+								porro dicta dignissimos provident rem consequuntur sequi!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__menu">
+					<div class="menu">
+						<h3>Частным лицам</h3>
+						<ul>
+							<li>Банковские карты</li>
+							<li>Кредиты</li>
+							<li>Вклады</li>
+							<li>Ипотека</li>
+							<li>Страхование</li>
+							<li>Сейфовые ячейки</li>
+							<li>Открытие счетов</li>
+							<li>Обмен валюты</li>
+							<li>Переводы</li>
+							<li>Маркетплейс</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<h3>Бизнесу</h3>
+						<ul>
+							<li>Экспресс-МСБ</li>
+							<li>Расчетно-кассовое обслуживание</li>
+							<li>Онлайн резервирование счета</li>
+							<li>Внешнеэкономическая деятельность</li>
+							<li>Зарплатный проект</li>
+							<li>Овердрафт</li>
+							<li>Кредит</li>
+							<li>Лизинг</li>
+							<li>Депозиты</li>
+							<li>Банковские гарантии</li>
+							<li>Факторинг</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<h3>О банке</h3>
+						<ul>
+							<li>Новости</li>
+							<li>Вакансии</li>
+							<li>Офисы</li>
+							<li>Инвестиционные услуги</li>
+							<li>О банке</li>
+							<li>Реквизиты</li>
+							<li>Тарифы</li>
+							<li>Монеты</li>
+							<li>Непрофильные активы</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__links">
+					<div class="link">
+						<a href="">8 800 775-56-06</a>
+						<p>Для звонков по России (бесплатно)</p>
+					</div>
+					<div class="link">
+						<a href="">+7 495 232-37-23</a>
+						<p>Для блокировка карт (круглосуточно)</p>
+					</div>
+					<div class="social">
+						<a href=""><img src="image/Telegram.svg" alt="" /></a>
+						<a href=""><img src="image/Vk.svg" alt="" /></a>
+						<a href=""><img src="image/Ok.svg" alt="" /></a>
+						<a href=""><img src="image/Twiter.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="menu">
+					<div class="menu__list">
+						<a href="">FATCA</a>
+						<a href="">Страхование и другие услуги НФО</a>
+						<a href=""
+							>Общие условия предоставления банковских гарантий в АО
+							«СолидБанк»</a
+						>
+						<a href="">Памятки по финансовой безопасности</a>
+						<a href="">Обеспечение защиты прав потребителей финансовых услуг</a
+						><a href=""
+							>Методика определения справедливой стоимости финансовых
+							инструментов</a
+						>
+						<a href="">Политика в отношении обработки персональных данных</a
+						><a href="">Лица, ответственные за сведения на сайте</a>
+						<a href="">Аудиторская компания</a>
+						<a href="">Надзорные органы</a>
+						<a href=""
+							>Информация о процентных ставках по договорам банковского вклада с
+							физическими лицами</a
+						>
+						<a href=""
+							>Информация, связанная с совершением Банком действий,
+							предусмотренных пунктом 5.6 статьи 7 ФЗ N 115</a
+						>
+					</div>
+				</div>
+
+				<div class="footer__description">
+					<div class="footer__site-info">
+						<p>
+							© 2004-2021, АО «Солид Банк» , официальный сайт, генеральная
+							лицензия ЦБ РФ № 1329.
+						</p>
+						<p>Разработка сайта - <span>RASA</span></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./javascript/javascript.js"></script>
+		<script src="./javascript/slider.js"></script>
+	</body>
+</html>

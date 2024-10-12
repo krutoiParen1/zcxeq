@@ -1,0 +1,250 @@
+@media (max-width: 430px) {
+	.card_auto-4,
+	.card_auto-5,
+	.card_auto-6,
+	.info-banner__button,
+	.car-selection {
+		display: none;
+	}
+
+	.down-header__call,
+	.down-header__login,
+	.tablet__left-menu li:nth-child(5) {
+		display: none;
+	}
+	.top-header__flex {
+		margin: 0 30px;
+	}
+
+	.banner p:nth-child(2) {
+		margin-top: 4px;
+	}
+	.banner p:nth-child(3) {
+		padding-bottom: 12px;
+	}
+
+	.telephone__call {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		color: #25b456;
+		font-weight: 500;
+	}
+
+	.telephone__login {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		color: #760135;
+		font-weight: 500;
+	}
+	.top-header-tablet__menu {
+		justify-content: space-between;
+	}
+	/*  */
+	.telephone,
+	.year,
+	.selection {
+		display: block;
+	}
+
+	/*  */
+
+	.micro-banner {
+		height: 430px;
+	}
+	.micro-banner__flex {
+		flex-direction: column;
+		margin: 0 16px;
+	}
+	.info-banner__breadcrumb {
+		display: inline-flex;
+		margin-bottom: 24px;
+	}
+
+	.banner p:nth-child(2) {
+		line-height: 36.4px;
+		font-size: 28px;
+	}
+
+	.banner p {
+		padding: 0;
+	}
+
+	.telephone__right-menu {
+		display: flex;
+		justify-content: space-between;
+		padding: 16px;
+	}
+	.banner p:nth-child(2) {
+		font-size: 28px;
+		font-weight: 600;
+	}
+
+	.telephone__line {
+		width: 100%;
+		height: 1px;
+		background-color: #e0e1e6;
+	}
+
+	/*  */
+
+	.select-form__header {
+		flex-direction: column;
+		align-items: baseline;
+	}
+
+	.select-form__close {
+		width: 100%;
+		gap: 0;
+		padding: 8px 60px;
+	}
+	.select-form__title {
+		margin-bottom: 24px;
+	}
+
+	/*  */
+
+	.car-selection-telephone__all-select {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.car-selection-telephone__price-flex {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 32px;
+	}
+	.selection {
+		margin: 0;
+	}
+	.year {
+		margin: 0;
+	}
+	.car__flex-row {
+		width: 153px;
+	}
+
+	#price {
+		width: 153px;
+	}
+
+	#year {
+		width: 153px;
+	}
+
+	.bramd_car {
+		display: inline-flex;
+		justify-content: space-between;
+	}
+
+	#brand_car {
+		width: auto;
+	}
+
+	/*  */
+
+	.card-list__block {
+		margin-bottom: 24px;
+		padding: 16px;
+		align-items: flex-start;
+		flex-direction: column-reverse;
+	}
+
+	.card_list {
+		justify-content: center;
+	}
+
+	.auto_credit {
+		margin-bottom: 34px;
+	}
+
+	.condition {
+		gap: 8px;
+		flex-direction: column;
+	}
+	.condition span {
+		width: 100%;
+	}
+
+	.General-Terms {
+		margin-bottom: 81px;
+	}
+
+	.faq {
+		flex-direction: column;
+	}
+
+	.card-list__title {
+		padding-bottom: 16px;
+	}
+
+	/*  */
+
+	.footer__links {
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+		margin-bottom: 0px;
+	}
+
+	.footer__bottom {
+		margin-top: 24px;
+	}
+
+	.footer__menu {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.menu {
+		border-bottom: 1px solid #e6e7eb;
+		flex: 1 1 auto;
+	}
+
+	.menu h3 {
+		position: relative;
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 22px;
+		color: #000;
+		cursor: pointer;
+		padding: 16px 0;
+	}
+
+	.menu h3:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 24px;
+		height: 24px;
+		background: url(../image/chevron-down.svg);
+		transform: translateY(-50%);
+	}
+
+	.menu ul {
+		margin: 0;
+		overflow: hidden;
+		max-height: 0;
+		transition: max-height 0.3s ease;
+	}
+
+	.menu ul.open {
+		max-height: 600px; /* Устанавливаем максимальную высоту для открытого списка */
+		padding-bottom: 16px;
+	}
+
+	.menu ul > li:first-child {
+		margin-top: 5px;
+	}
+
+	.footer__site-info {
+		flex-direction: column;
+		gap: 16px;
+	}
+}

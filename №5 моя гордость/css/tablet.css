@@ -1,0 +1,157 @@
+@media (max-width: 1108px) {
+	.container {
+		margin: 0 16px;
+	}
+	.card_auto,
+	.down-header__left-menu,
+	.info-banner__breadcrumb,
+	.top-header__left-menu,
+	.top-header__right-menu {
+		display: none;
+	}
+	.banner p:nth-child(3) {
+		padding-bottom: 24px;
+		margin-bottom: 24px;
+	}
+	.card_auto-1,
+	.card_auto-2,
+	.card_auto-3,
+	.card_auto-4,
+	.card_auto-5,
+	.card_auto-6,
+	.down-header__menu-toggle,
+	.all_car,
+	.top-header-tablet,
+	.tablet {
+		display: block;
+	}
+
+	.tablet__line {
+		width: 100%;
+		height: 1px;
+		background-color: #e0e1e6;
+	}
+
+	.top-header__flex {
+		display: block;
+		height: 53px;
+	}
+
+	.micro-banner__flex {
+		margin: 0 16px;
+	}
+
+	.top-header-tablet__menu {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 53px;
+	}
+
+	.top-header-tablet__link {
+		color: #8d8d8d;
+		white-space: nowrap;
+	}
+	.top-header-tablet__link-active {
+		color: #313133;
+		white-space: nowrap;
+	}
+
+	.top-header-tablet__separator {
+		height: 53px;
+		background-color: #e0e1e6;
+		width: 1px;
+	}
+	/*  */
+	.card_list {
+		justify-content: space-around;
+	}
+	.card_list-block {
+		display: block;
+	}
+	.banner p:nth-child(2) {
+		margin-top: 50px;
+	}
+	.down-header__services {
+		display: flex;
+		align-items: center;
+	}
+
+	.tablet__left-menu {
+		display: flex;
+		gap: 16px;
+		padding: 16px;
+	}
+
+	.down-header {
+		margin: 0 16px;
+	}
+	/*  */
+	.selection {
+		margin-right: 4px;
+		width: 25vw;
+	}
+	.dash {
+		margin: 0 8px;
+	}
+	.year {
+		width: 25vw;
+		margin-right: 4px;
+	}
+
+	.car-selection {
+		justify-content: space-around;
+		margin-bottom: 40px;
+	}
+
+	.price {
+		width: 15vw;
+	}
+
+	.card-list__description {
+		display: none;
+	}
+
+	.card-list__block {
+		margin-bottom: 24px;
+	}
+
+	.auto_credit {
+		margin-bottom: 40px;
+	}
+
+	.General-Terms {
+		margin-bottom: 81px;
+	}
+	.faq {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	.faq__title-wrap h2 {
+		width: auto;
+	}
+
+	.footer {
+		padding: 24px 16px;
+	}
+	.footer__top {
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+	.footer__links {
+		flex-direction: row;
+		justify-content: space-between;
+		height: auto;
+		width: 100%;
+		gap: 42px;
+		border-left: none;
+		margin-bottom: 24px;
+		padding-bottom: 24px;
+		border-bottom: 1px solid #e6e7eb;
+		padding-left: 0;
+	}
+	#year {
+		margin-right: 4px;
+	}
+}
